@@ -15,12 +15,15 @@
             align-items: center;
             flex-direction: column;
             width: fit-content;
-           background-color: #D9AFD9;
-background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 
+            background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
             border-radius: 10px;
-           box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
+        }
+
+        h1 {
+            text-shadow: 1px 2px 3px black;
         }
 
         .input {
@@ -45,7 +48,7 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
             <h1 class="text-light display-1 fw-bolder">Random Password</h1>
             <div class="input"></div>
             <div class="btn-box">
-                <button type="button" class="btn btn-outline-warning btn1 me-3" onclick="startTimer()">Start</button>
+                <button type="button" class="btn btn-outline-success btn1 me-3" onclick="startTimer()">Start</button>
                 <button type="button" class="btn btn-outline-info btn2 me-3" onclick="stopTimer()">Stop</button>
                 <button type="button" class="btn btn-outline-danger" onclick="deleteTimer()">Delete</button>
 

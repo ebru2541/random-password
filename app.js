@@ -3,7 +3,7 @@ const input = document.querySelector(".input");
 function startTimer() {
   timer = setInterval(() => {
     randomSayı();
-  }, 1000);
+  }, 900);
 }
 
 function stopTimer() {
